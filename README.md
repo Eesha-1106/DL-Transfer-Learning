@@ -100,7 +100,20 @@ def train_model(model, train_loader,test_loader,num_epochs=10):
 
 
 ## Classification Report
-<img width="617" height="257" alt="image" src="https://github.com/user-attachments/assets/bf5e91eb-5873-4da9-8bb5-bb4c05c41ab1" />
+```
+Name:Eesha Ranka
+Register Number:212224240040
+Classification Report:
+              precision    recall  f1-score   support
+
+      defect       0.27      1.00      0.43        33
+   notdefect       0.00      0.00      0.00        88
+
+    accuracy                           0.27       121
+   macro avg       0.14      0.50      0.21       121
+weighted avg       0.07      0.27      0.12       121
+```
+
 
 ### New Sample Data Prediction
 <img width="328" height="371" alt="image" src="https://github.com/user-attachments/assets/852e49e2-8899-4f8a-ae98-ae71130ec51d" />
